@@ -2,7 +2,7 @@ package com.bsb.calc.abstractfactory;
 
 public class Client {
 	
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args){
 		String firstNumber = "10.3";
 		String secondNumber = "20.2";
 		
