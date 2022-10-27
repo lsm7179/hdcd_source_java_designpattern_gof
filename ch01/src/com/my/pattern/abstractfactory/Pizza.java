@@ -15,7 +15,7 @@ public abstract class Pizza {
 
 class CheesePizza extends Pizza {
 
-    public CheesePizza() {
+    protected CheesePizza() {
         this.price = new BigInteger("8000");
         this.type = PizzaType.cheese;
     }
@@ -23,7 +23,7 @@ class CheesePizza extends Pizza {
 
 class BaconPizza extends Pizza {
 
-    public BaconPizza() {
+    protected BaconPizza() {
         this.price = new BigInteger("10000");
         this.type = PizzaType.bacon;
     }
@@ -31,7 +31,7 @@ class BaconPizza extends Pizza {
 
 class SeafoodPizza extends Pizza {
 
-    public SeafoodPizza() {
+    protected SeafoodPizza() {
         this.price = new BigInteger("15000");
         this.type = PizzaType.seafood;
     }
