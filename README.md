@@ -25,7 +25,7 @@
 
 추상 팩토리(Abstract Factory)
 
-팩토리 메서드(Factory Method)
+[팩토리 메서드(Factory Method)](https://roomconerdeveloper.tistory.com/157)
 
 싱글톤(Singletion)
 
