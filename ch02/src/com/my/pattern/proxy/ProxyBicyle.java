@@ -3,7 +3,7 @@ package com.my.pattern.proxy;
 import java.util.Objects;
 
 public class ProxyBicyle implements Bicycle {
-    private Bicycle bicycle;
+    private DiamondbackBicycle bicycle;
 
     @Override
     public void ride() {
