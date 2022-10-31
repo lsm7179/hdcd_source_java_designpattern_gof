@@ -29,7 +29,7 @@
 
 싱글톤(Singletion)
 
-빌더(Builder)
+[빌더(Builder)](https://roomconerdeveloper.tistory.com/159)
 
 컴퍼지트(Composite)
 
