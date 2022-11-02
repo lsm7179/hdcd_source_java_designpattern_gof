@@ -37,7 +37,7 @@
 
 어댑터(Adapter)
 
-프록시(Proxy)
+[프록시(Proxy)](https://roomconerdeveloper.tistory.com/160)
 
 퍼사드(Facade)
 
