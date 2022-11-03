@@ -8,7 +8,9 @@ public class PhotoShopClient {
         Image image = new PngImage();
 
         System.out.println("저장하자!");
-        image.save(PdfSaving::new);
+        SavingStrategy strategy =  new PdfSaving();
+        image.setStrategy(strategy);
+        image.save();
 
         System.out.println("저장했으니 퇴근해야지..");
 
