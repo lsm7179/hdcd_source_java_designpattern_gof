@@ -51,7 +51,7 @@
 
 커맨드(Command)
 
-전략(strategy)
+[전략(strategy)](https://roomconerdeveloper.tistory.com/161)
 
 ## 스터디 방법
 
