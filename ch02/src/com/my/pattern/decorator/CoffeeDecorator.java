@@ -1,10 +1,10 @@
 package com.my.pattern.decorator;
 
-public abstract class CoffeDecorator implements Coffee {
+public abstract class CoffeeDecorator implements Coffee {
 
     private Coffee coffee;
 
-    public CoffeDecorator(Coffee coffee) {
+    public CoffeeDecorator(Coffee coffee) {
         this.coffee = coffee;
     }
 

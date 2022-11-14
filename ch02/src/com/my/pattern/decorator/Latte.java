@@ -1,6 +1,6 @@
 package com.my.pattern.decorator;
 
-public class Latte  extends CoffeDecorator {
+public class Latte  extends CoffeeDecorator {
     public Latte(Coffee coffee) {
         super(coffee);
     }
