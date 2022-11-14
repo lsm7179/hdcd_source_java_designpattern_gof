@@ -3,7 +3,7 @@ package com.my.pattern.decorator;
 public class Espresso implements Coffee {
 
     @Override
-    public String print() {
+    public String recipe() {
         return "에스프레소";
     }
 }

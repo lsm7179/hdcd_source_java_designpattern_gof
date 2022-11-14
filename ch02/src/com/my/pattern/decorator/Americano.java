@@ -6,7 +6,7 @@ public class Americano extends CoffeDecorator {
     }
 
     @Override
-    public String print() {
-        return super.print() + " + 물";
+    public String recipe() {
+        return super.recipe() + " + 물";
     }
 }

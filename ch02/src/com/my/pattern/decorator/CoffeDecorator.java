@@ -9,7 +9,7 @@ public abstract class CoffeDecorator implements Coffee {
     }
 
     @Override
-    public String print() {
-       return this.coffee.print();
+    public String recipe() {
+       return this.coffee.recipe();
     }
 }

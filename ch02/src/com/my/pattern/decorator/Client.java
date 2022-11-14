@@ -6,20 +6,20 @@ public class Client {
         System.out.print("에스프레소 레시피: ");
 
         Coffee espresso = new Espresso();
-        System.out.println(espresso.print());
+        System.out.println(espresso.recipe());
 
 
         System.out.print("아메리카노 레시피: ");
         Coffee americano = new Americano(new Espresso());
-        System.out.println(americano.print());
+        System.out.println(americano.recipe());
 
         System.out.print("라떼 레시피: ");
         Coffee latte = new Latte(new Espresso());
-        System.out.println(latte.print());
+        System.out.println(latte.recipe());
 
 
         System.out.print("바닐라라떼 레시피: ");
         Coffee vanillaLatte = new VanillaLatte(new Latte(new Espresso()));
-        System.out.println(vanillaLatte.print());
+        System.out.println(vanillaLatte.recipe());
     }
 }

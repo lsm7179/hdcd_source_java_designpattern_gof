@@ -7,7 +7,7 @@ public class VanillaLatte extends CoffeDecorator {
     }
 
     @Override
-    public String print() {
-        return super.print() + " + 바닐라시럽";
+    public String recipe() {
+        return super.recipe() + " + 바닐라시럽";
     }
 }

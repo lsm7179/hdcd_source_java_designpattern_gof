@@ -6,7 +6,7 @@ public class Latte  extends CoffeDecorator {
     }
 
     @Override
-    public String print() {
-        return super.print() + " + 우유";
+    public String recipe() {
+        return super.recipe() + " + 우유";
     }
 }
